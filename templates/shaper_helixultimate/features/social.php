@@ -90,7 +90,7 @@ class HelixUltimateFeatureSocial
 						break;
 
 						case 'whatsapp':
-							$link = 'https://wa.me/' . $link . '?text=Hi';
+							$link = 'https://wa.me/' . $link;
 						break;
 
 						case 'custom':

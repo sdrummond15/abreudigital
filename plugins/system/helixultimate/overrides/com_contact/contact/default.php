@@ -373,7 +373,7 @@ $htag    = $tparams->get('show_page_heading') ? 'h2' : 'h1';
 	<?php endif; ?>
 
 	<?php if ($tparams->get('show_email_form') && ($this->item->email_to || $this->item->user_id)) : ?>
-		<?php echo '<h3>' . Text::_('COM_CONTACT_EMAIL_FORM') . '</h3>'; ?>
+		<?php //echo '<h3>' . Text::_('COM_CONTACT_EMAIL_FORM') . '</h3>'; ?>
 		<?php echo $this->loadTemplate('form'); ?>
 	<?php endif; ?>
 
